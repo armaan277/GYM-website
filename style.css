@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: black;
+  --danger-color: red;
+  --bg-light: white;
+  --font-family: "Poppins", sans-serif;
+}
+
+html {
+  overflow-x: hidden; 
+  scroll-behavior: smooth;
+}
+
+/* item-1 START */
+
+#navbar {
+  background: url("images/builder.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#navbar a::before {
+  content: "";
+  position: absolute;
+  top: 94%;
+  left: 8px; 
+  width: 0;
+  height: 3px;
+  background-color: red;
+  transition: width 0.4s ease-out;
+}
+#navbar a:hover::before {
+  width: 80%;
+}
+
+
+#navbar a {
+  color: var(--bg-light) !important;
+  font-family: var(--font-family);
+  font-weight: 500;
+  position: relative; 
+}
+
+#item-1 .container h1 {
+  color: var(--danger-color);
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 5rem;
+}
+
+#item-1 .container h2 {
+  color: var(--bg-light);
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+#item-1 .container p {
+  line-height: 1.7;
+  font-size: 1.1rem;
+  font-family: var(--font-family);
+  color: var(--danger-color);
+  width: 55%;
+  font-weight: 500;
+  text-align: justify;
+  padding: 1rem 0px;
+}
+
+#item-1 .container .btn {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--danger-color);
+  padding: 7px 30px;
+  color: var(--bg-light);
+}
+#item-1 .container .btn:hover {
+  transform: scale(1.02);
+}
+
+/* item-1 END */
+
+
+
+/* item-2 START */
+#item-2 .container-fluid .featurette {
+  background-color: var(--bg-color) !important;
+}
+
+#item-2 .container-fluid h1 {
+  color: var(--danger-color);
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+#item-2 .container-fluid h2 {
+  color: var(--bg-light);
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1.6rem 0px;
+}
+
+#item-2 .container-fluid h4 {
+  color: var(--danger-color);
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem 0px;
+}
+
+#item-2 p {
+  color: var(--bg-light);
+  line-height: 1.8;
+}
+
+#item-2 .container-fluid .btn-about {
+  background-color: var(--danger-color) !important;
+  padding: 7px 30px;
+  border-radius: 10rem !important;
+  border: none;
+  color: var(--bg-light);
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+#item-2 .container-fluid .btn-about:hover {
+  transform: scale(1.02);
+}
+/* item-2 END */
+
+
+/* item-3 START */
+#item-3 {
+background-color: var(--bg-color);
+}
+
+#item-3 h1 {
+  font-size: 3rem;
+  color: var(--danger-color) !important;
+  font-weight: 600;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+#item-3 .container-fluid {
+  background-color: black !important;
+}
+
+#item-3 .container-fluid .card {
+  border: 1px solid gray;
+  background-color: var(--bg-color) !important;
+}
+
+#item-3 .container-fluid h2 {
+  color: var(--bg-light);
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0.5rem 0px;
+}
+
+#item-3 .container-fluid h3 {
+  color: var(--danger-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 1rem 0px;
+}
+
+#item-3 .container-fluid p {
+  color: lightgray;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#item-3 .container-fluid .btn-features {
+  border: 1px solid gray !important;
+  font-family: "Poppins", sans-serif;
+  padding: 7px 20px;
+  background-color: var(--bg-color);
+  color: var(--danger-color);  
+  border-radius: 10rem;
+  outline: none; 
+}
+
+#item-3 .container-fluid .btn-features:hover {
+  background-color: red !important; 
+  transform: scale(1.02);
+  color: white;
+  border: none !important;
+}
+
+#item-3 .container-fluid .cards {
+  margin: 1.4rem 0px; 
+}
+/* item-3 END */
+
+
+/* item-4 START */
+#item-4 {
+  background-color: black !important;
+  padding: 2.4rem 0px;
+}
+
+
+#item-4 .card {
+  background-color: black;
+  border: 1px solid gray;
+  margin: 1rem 0px;
+}
+
+#item-4 h2 {
+  color: var(--bg-light);
+}
+
+#item-4 h1 {
+  font-size: 3rem;
+  color: var(--danger-color) !important;
+  font-weight: 600;
+  padding: 2rem 0px;
+}
+
+#item-4 h5 {
+  font-family: var(--font-family);
+  font-size: 1.8rem;
+  font-weight: 500 !important;
+  color: var(--danger-color) !important;
+}
+
+#item-4 .container-fluid {
+  background-color: black !important;
+}
+
+#item-4 .container-fluid p {
+  text-align: justify;
+  color: lightgray;
+}
+
+.panoti {
+  display: inline-block;
+  margin: auto;
+}
+
+#item-4 .container-fluid .btn-price {
+  border: 1px solid red !important;
+  font-family: "Poppins", sans-serif;
+  padding: 7px 18px !important;
+  margin: 1rem 2rem;
+  background-color: var(--bg-color);
+  color: var(--danger-color);  
+  border-radius: 10rem;
+  color: var(--bg-light);
+  outline: none;
+}
+
+#item-4 .container-fluid .btn-price:hover {
+  background-color: red !important; 
+  transform: scale(1.01);
+  color: white;
+  border: none !important;
+}
+/* item-4 END */
+
+
+#item-5 {
+  background-color: black !important;
+}
+
+#item-5 h1 {
+  font-size: 3rem;
+  color: var(--danger-color) !important;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+}
+
+#item-5 .container-fluid h2 {
+  padding: 0.2rem 0px;
+  color: var(--danger-color) !important;
+}
+
+#item-5 .container-fluid h4 {
+  padding: 0.4rem 0px;
+  color: var(--bg-light) !important;
+}
+
+#item-5 .container-fluid p {
+  line-height: 1.6;
+  text-align: justify;
+  color: lightgray !important;
+}
+
+#item-5 .container-fluid .icons {
+  padding: 0px 0.2rem;
+}
+
+#item-5 .container-fluid .btn-trainer {
+  border: 1px solid gray !important;
+  font-family: "Poppins", sans-serif;
+  padding: 7px 20px;
+  background-color: var(--bg-color);
+  color: var(--danger-color);  
+  border-radius: 10rem;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+#item-5 .container-fluid .btn-trainer:hover {
+  background-color: red !important; 
+  transform: scale(1.02);
+  color: white;
+  border: none !important;
+}
+
+
+/* discount */
+#discount {
+  background-color: black !important;
+}
+
+#discount .container h3 {
+  text-align: center;
+  font-family: var(--font-family);
+  color: red;
+  margin: 1.6rem 0px;
+}
+
+#discount .container h1 {
+  text-align: center;
+  font-family: var(--font-family);
+  margin: 1.6rem 0px;
+}
+
+#discount .container p {
+  text-align: justify;
+  line-height: 1.9;
+  text-align: center;
+  font-family: var(--font-family);
+  margin: 1.6rem 0px;
+}
+
+#discount .container img {
+  height: 300px;
+}
+
+
+#discount .container .btn-discount {
+  font-family: "Poppins", sans-serif;
+  height: 40px;
+  background-color: var(--danger-color);
+  color: var(--danger-color);  
+  border-radius: 10rem;
+  color: var(--bg-light);
+  display: block;
+  margin: auto;
+  border: none;
+}
+
+#discount .container .btn-discount:hover {
+  background-color: var(--bg-color) !important; 
+  transform: scale(1.01);
+  color: red;
+  border: 1px solid white !important;
+}
+
+
+
+

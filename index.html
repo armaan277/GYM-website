@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <title>GYM Websites.</title>
+  </head>
+  <body>
+    
+    <section id="navbar">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="images/logo.png"
+              alt="logo-images"
+              class="img-fluid"
+              width="100"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              ><i class="fa fa-bars text-danger" style="font-size: 35px"></i
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item nav-home">
+                <a class="nav-link" href="#item-1"
+                  >Home<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link" href="#item-2">About</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link" href="#item-3">Features</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link" href="#item-4">Pricing</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link" href="#item-5">Trainers</a>
+              </li>
+              <li class="nav-item pl-4">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
+            </li> -->
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <section id="item-1" style="height: 65vh">
+        <div class="container">
+          <h1>BLAST FITNESS GYM</h1>
+          <h2>Make Yourself Stronger</h2>
+          <h2>Than Your Excuses</h2>
+          <p class="lead">
+            This website offers a variety of resources for gym-goers, including
+            workout plans, nutrition advice, and supplement reviews.
+          </p>
+          <button
+            type="button"
+            class="btn rounded-pill"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Sign In
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5
+                    class="modal-title text-danger"
+                    id="exampleModalLongTitle"
+                  >
+                    Sign in
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group text-danger">
+                      <label class="text-danger" for="exampleInputEmail1"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                        placeholder="Enter email"
+                      />
+                      <small id="emailHelp" class="form-text text-danger"
+                        >We'll never share your email with anyone else.</small
+                      >
+                    </div>
+                    <div class="form-group">
+                      <label class="text-danger" for="exampleInputPassword1"
+                        >Password</label
+                      >
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="exampleInputPassword1"
+                        placeholder="Password"
+                      />
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn" data-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="item-2">
+      <div class="container-fluid">
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h1 class="lead">About Us</h1>
+
+            <h2>Every Day Is A Chance To Become Better</h2>
+            <p class="lead display-block-para">
+              Breaking Muscle This blog offers workout plans and advice from top
+              trainers and coaches. It also covers topics like injury prevention
+              and recovery, making it a great resource for serious athletes.
+            </p>
+            <div class="d-flex text-muted">
+              <div>
+                <h4>
+                  <i class="fa fa-check" style="font-size: 20px; color: red"></i
+                  >Body And Mind
+                </h4>
+                <p class="lead display-block-para-dflex">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Soluta, adipisci!
+                </p>
+              </div>
+              <div>
+                <h4>
+                  <i class="fa fa-check" style="font-size: 20px; color: red"></i
+                  >Healthy Life
+                </h4>
+                <p class="lead display-block-para-dflex">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Soluta, adipisci!
+                </p>
+              </div>
+            </div>
+            <div class="d-flex text-muted">
+              <div>
+                <h4>
+                  <i class="fa fa-check" style="font-size: 20px; color: red"></i
+                  >Strategies
+                </h4>
+                <p class="lead display-block-para-dflex">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Soluta, adipisci!
+                </p>
+              </div>
+              <div>
+                <h4>
+                  <i class="fa fa-check" style="font-size: 20px; color: red"></i
+                  >Workout
+                </h4>
+                <p class="lead display-block-para-dflex">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Soluta, adipisci!
+                </p>
+              </div>
+            </div>
+            <button type="button" class="btn-about">Read More</button>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              class="image-about"
+              src="images/about.jpg"
+              height="600"
+              width="500"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="item-3">
+      <h1 class="text-center lead">Features</h1>
+      <div
+        class="container-fluid d-flex justify-content-around flex-wrap"
+      >
+        <div class="card cards" style="width: 22.5rem">
+          <img
+            class="card-img-top"
+            src="images/feature1.jpg"
+            height="260"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h2 class="card-title lead">Big Dumbles</h2>
+            <h3>All Are Good Qualities</h3>
+            <p class="card-text lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              exercitationem aut corrupti.
+            </p>
+            <button type="button" class="btn-features">Read More</button>
+          </div>
+        </div>
+
+        <div class="card cards" style="width: 22.5rem">
+          <img
+            class="card-img-top"
+            src="images/feature2.png"
+            height="260"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h2 class="card-title lead">All Types Of Dumbles</h2>
+            <h3>All Are Good Qualities</h3>
+            <p class="card-text lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              exercitationem aut corrupti.
+            </p>
+            <button type="button" class="btn-features">Read More</button>
+          </div>
+        </div>
+
+        <div class="card cards" style="width: 22.5rem">
+          <img
+            class="card-img-top"
+            src="images/feature3.jpg"
+            height="260"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h2 class="card-title lead">Special Instruments</h2>
+            <h3>All Are Good Qualities</h3>
+            <p class="card-text lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              exercitationem aut corrupti.
+            </p>
+            <button type="button" class="btn-features">Read More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<section id="item-4">     
+<h1 class="text-center">Pricing</h1>
+
+<div class="container-fluid d-flex justify-content-around flex-wrap">
+<div class="card" style="width: 24rem;">
+    <div class="card-body">
+      <h5 class="card-title">Pricing Plan</h5>
+      <h2>Affordable Pricing</h2>
+      <h2>Plan For Your</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nobis expedita magni a, impedit debitis! Voluptatum, esse.</p>
+      <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Cardio Exercise</p>
+      <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Weight Lighting</p>
+      <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Diet Plans</p>
+      <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Overall Result</p>
+    </div>
+    <button type="button" class="btn-price">All Pricing</button>
+</div>
+
+<div class="card text-center" style="width: 24rem;">
+      <div class="card-body">
+        <h2 class="card-title">Basic Plan</h2>
+        <h1>
+          $66<small class="text-body-secondary">/6month</small>
+        </h1>
+        <div class="panoti">
+          <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Personal Training</p>
+          <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Cardio Exercise</p>
+          <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Weight Lighting</p>
+          <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Diet Plans</p>
+          <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Overall Result</p>
+        </div>
+      </div>
+      <button type="button" class="btn-price">Get Started</button>
+</div>
+
+
+<div class="card text-center" style="width: 24rem;">
+    <div class="card-body">
+      <h2 class="card-title">Premium Plan</h2>
+      <h1>
+        $99<small class="text-body-secondary">/1year</small>
+      </h1>
+      <div class="panoti">
+      <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Personal Training</p>
+      <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Cardio Exercise</p>
+      <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Weight Lighting</p>
+      <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Diet Plans</p>
+      <p><i class="fa fa-check" style="font-size: 20px; color: red"></i>Overall Result</p>
+      </div>
+    </div>
+  <button type="button" class="btn-price">Get Started</button>
+  </div>
+</div>
+</div>
+</section>
+
+
+<section id="item-5">
+<h1 class="text-center lead">GYM Trainers</h1>
+  <div class="container-fluid flex-wrap">
+    <div class="row">
+      <div class="col-sm-12 col-lg-4 col-md-6">
+        <img src="images/trainers1.jpg" class="img-thumbnail rounded" alt="trainers1 image">
+        <h2>Men's Trainers</h2>
+        <h4>Best Trainers</h4>
+        <p class="lead">A gym trainer, also known as a personal trainer, is a certified fitness professional who specializes in creating customized workout plans and guiding individuals towards their fitness goals</p>
+        <p class="lead"><i class="fa fa-instagram" style="font-size:25px;color:red"></i> <i class="fa fa-twitter icons" style="font-size:25px;color:red"></i> <i class="fa fa-youtube-play icons" style="font-size:25px;color:red"></i> <i class="fa fa-facebook-square" style="font-size:25px;color:red"></i></p>
+        <button type="button" class="btn-trainer">Read More</button>
+      </div>
+      <div class="col-sm-12 col-lg-4 col-md-6">
+        <img src="images/trainers5.jpg" class="img-thumbnail" alt="trainers2 image">
+        <h2>Women's Trainers</h2>
+        <h4>Best Trainers</h4>
+        <p class="lead">A gym trainer, also known as a personal trainer, is a certified fitness professional who specializes in creating customized workout plans and guiding individuals towards their fitness goals</p>
+        <p class="lead"><i class="fa fa-instagram" style="font-size:25px;color:red"></i> <i class="fa fa-twitter icons" style="font-size:25px;color:red"></i> <i class="fa fa-youtube-play icons" style="font-size:25px;color:red"></i> <i class="fa fa-facebook-square" style="font-size:25px;color:red"></i></p>
+        <button type="button" class="btn-trainer">Read More</button>
+      </div>
+      <div class="col-sm-12 col-lg-4 col-md-12">
+        <img src="images/trainers3.jpg" class="img-thumbnail" alt="trainers3 image">
+        <h2>Men's Trainers</h2>
+        <h4>Best Trainers</h4>
+        <p class="lead">A gym trainer, also known as a personal trainer, is a certified fitness professional who specializes in creating customized workout plans and guiding individuals towards their fitness goals</p>
+        <p class="lead"><i class="fa fa-instagram" style="font-size:25px;color:red"></i> <i class="fa fa-twitter icons" style="font-size:25px;color:red"></i> <i class="fa fa-youtube-play icons" style="font-size:25px;color:red"></i> <i class="fa fa-facebook-square" style="font-size:25px;color:red"></i></p>
+        <button type="button" class="btn-trainer">Read More</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-lg-4 col-md-6">
+        <img src="images/trainers4.jpg" class="img-thumbnail" alt="trainers4 image">
+        <h2> Women's Trainers</h2>
+        <h4>Best Trainers</h4>
+        <p class="lead">A gym trainer, also known as a personal trainer, is a certified fitness professional who specializes in creating customized workout plans and guiding individuals towards their fitness goals</p>
+              <p class="lead"><i class="fa fa-instagram" style="font-size:25px;color:red"></i> <i class="fa fa-twitter icons" style="font-size:25px;color:red"></i> <i class="fa fa-youtube-play icons" style="font-size:25px;color:red"></i> <i class="fa fa-facebook-square" style="font-size:25px;color:red"></i></p>
+        <button type="button" class="btn-trainer">Read More</button>
+      </div>
+      <div class="col-sm-12 col-lg-4 col-md-6">
+        <img src="images/trainers2.jpg" class="img-thumbnail" alt="trainers5 image">
+        <h2>Men's Trainers</h2>
+        <h4>Best Trainers</h4>
+        <p class="lead">A gym trainer, also known as a personal trainer, is a certified fitness professional who specializes in creating customized workout plans and guiding individuals towards their fitness goals</p>
+              <p class="lead"><i class="fa fa-instagram" style="font-size:25px;color:red"></i> <i class="fa fa-twitter icons" style="font-size:25px;color:red"></i> <i class="fa fa-youtube-play icons" style="font-size:25px;color:red"></i> <i class="fa fa-facebook-square" style="font-size:25px;color:red"></i></p>
+        <button type="button" class="btn-trainer">Read More</button>
+      </div>
+      <div class="col-sm-12 col-lg-4 col-md-12">
+        <img src="images/trainers6.jpg" class="img-thumbnail" alt="trainers6 image">
+        <h2>Women's Trainers</h2>
+        <h4>Best Trainers</h4>
+        <p class="lead">A gym trainer, also known as a personal trainer, is a certified fitness professional who specializes in creating customized workout plans and guiding individuals towards their fitness goals</p>
+        <p class="lead"><i class="fa fa-instagram" style="font-size:25px;color:red"></i> <i class="fa fa-twitter icons" style="font-size:25px;color:red"></i> <i class="fa fa-youtube-play icons" style="font-size:25px;color:red"></i> <i class="fa fa-facebook-square" style="font-size:25px;color:red"></i></p>
+        <button type="button" class="btn-trainer">Read More</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="discount">
+  <div class="container">
+      <div class="card bg-dark text-white">
+        <img class="img-fluid" src="images/discount.jpg" alt="Card image">
+        <div class="card-img-overlay">
+          <h3 class="card-title">Join Us Now</h3>
+          <h1>GET UPTO 50% DISCOUNT</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores minima iure alias accusantium nulla voluptatum, hic tenetur quaerat!</p>
+          <button type="button" class="btn-discount w-25">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<section id="footer">
+<footer class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+      <small class="d-block mb-3 text-body-secondary">© AM GYM 2023 – 2024</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Features</h5>
+      <ul class="list-unstyled text-white">
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Trainers</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Rooms Features</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Team feature</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Stuff for Builder's</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">All Type Features</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled">
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Resource name</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Resource</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Another resource</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Final resource</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Rest Room</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Business</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Education</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">All resource</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Gaming</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Rest Room</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>About</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Team</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Locations</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Privacy</a></li>
+        <li><a class="link-secondary text-white text-decoration-none" href="#">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</section>
+
+</body>
+</html>
